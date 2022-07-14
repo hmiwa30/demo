@@ -10,4 +10,5 @@ git clone (remote repository address e.g.https://github.com/USERNAME/(remote rep
 git branch (branch name) #make branch
 git checkout (branch name) #move branch
 git branch #check branch
-git pull #reflect changes in remote repository to local repository
+git pull #reflect changes in remote repository to local repository #error
+git pull origin main #reflect changes in remote repository to local repository #success
