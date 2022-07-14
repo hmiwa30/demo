@@ -1,9 +1,13 @@
+git config --list #config check
+git config --global init.defaultbranch main #master -> main
 git init #make local repository
+rm -rf .git #delete git (git init)
 git add (filename) #add to index
 git commit -m "(message e.g.[Add] index)" #commit to repository
-git remote add origin (remote repository address e.g.https://github.com/USERNAME/rakus.git) #push to remote repository step1
-git push origin (branch name) #push to remote repository step2
-git clone (remote repository address e.g.https://github.com/USERNAME/rakus.git) #cloning remote repository to local one
+git remote add origin (remote repository address e.g.https://github.com/USERNAME/(remote repository).git) #link local and remote repository
+git push origin (branch name) #reflect changes in local repository to remote repository (branch name = main etc.)
+git clone (remote repository address e.g.https://github.com/USERNAME/(remote repository).git) #cloning remote repository to local one
 git branch (branch name) #make branch
 git checkout (branch name) #move branch
 git branch #check branch
+git pull #reflect changes in remote repository to local repository
