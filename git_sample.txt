@@ -1,0 +1,9 @@
+git init #make local repository
+git add (filename) #add to index
+git commit -m "(message e.g.[Add] index)" #commit to repository
+git remote add origin (remote repository address e.g.https://github.com/USERNAME/rakus.git) #push to remote repository step1
+git push origin (branch name) #push to remote repository step2
+git clone (remote repository address e.g.https://github.com/USERNAME/rakus.git) #cloning remote repository to local one
+git branch (branch name) #make branch
+git checkout (branch name) #move branch
+git branch #check branch

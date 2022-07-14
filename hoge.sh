@@ -1,0 +1,2 @@
+#!/hmiwa/
+echo "hoge"
