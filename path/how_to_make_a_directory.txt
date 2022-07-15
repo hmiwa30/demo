@@ -1,1 +1,2 @@
 if you want to create a new directory, please make a file named "PATH/.gitkeep"
+you have to put at least one file under a directory you want to make
