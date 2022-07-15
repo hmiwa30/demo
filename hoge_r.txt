@@ -1,0 +1,4 @@
+#!/opt/pkg/r/3.5.2/bin/Rscript
+print("Hello,world")
+print("hoge hoge")
+print("R Success!!")
