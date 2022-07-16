@@ -5,6 +5,7 @@ rm -rf .git #delete git (git init)
 git add (filename) #add to index
 git commit -m "(message e.g.[Add] index)" #commit to repository
 git remote add origin (remote repository address e.g.https://github.com/USERNAME/(remote repository).git) #link local and remote repository
+#git remote add origin git@github.com:hmiwa30/(remote repository).git
 git push origin (branch name) #reflect changes in local repository to remote repository (branch name = main etc.)
 git clone (remote repository address e.g.https://github.com/USERNAME/(remote repository).git) #cloning remote repository to local one
 git branch (branch name) #make branch
