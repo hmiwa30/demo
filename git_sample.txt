@@ -13,3 +13,5 @@ git checkout (branch name) #move branch
 git branch #check branch
 git pull #reflect changes in remote repository to local repository #error
 git pull origin main #reflect changes in remote repository to local repository #success
+git reflog
+git status
